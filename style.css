@@ -1,34 +1,101 @@
 body {
 	margin: 20px;
+	font-family: Georgia, Times, "Times New Roman", serif;
+	font-size: large;
+	color:grey;
+	background-color: white;
 }
+
 header {
 	text-align: center;
+	font-family: Arial Narrow, Arial, Helvetica, sans-serif;
+	color:#312c32;
+	font-weight: bold;
+	font-size: 35px;
+	}
+
+h1 {
+	font-size: 70px;
+}
+
+h2 {
+	font-family: Arial Narrow, Arial, Helvetica, sans-serif;
+	color: #312c32;
+	font-size: 35px;
+}
+
+h2.aboutme {
+	font-family: "Lucida Console", Monaco, monospace;
+}
+
+h3 {
+	font-family: "Lucida Console", Monaco, monospace;
+	color: #ba9077;
+}
+
+a {
+	color: #daad86;
 }
 
 hr {
 	height:5px;
-	background-color: #000000;
+	background-color: #daad86;
 }
 
 img {
+	padding: 5px;
+	border: 1px solid #283018;
+	background-color: white;
+}
+
+img.right {
+	height: 460px;
 	float: right;
-	height: 90px;
-	background-color: red;
 	border-radius: 50%;
 }
-section hr{
-	height: 2px;
-	background: grey;
+
+img.center {
+	height: 500px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+span.jobtitle {
+	font-family: Arial Narrow, Arial, Helvetica, sans-serif;
+	font-style: italic;
+	font-weight: bold;
+}
+
+span.companyname {
+	font-family: Arial Narrow, Arial, Helvetica, sans-serif;
+}
+
+span.jobperiod {
+	font-family: Arial Narrow, Arial, Helvetica, sans-serif;
+	font-size: small;
+}
+
+section hr {
+	height: 1px;
+	background-color: #98dafc;
 }
 
 footer ul {
 	text-align: center;
+	font-family: Arial Narrow, Arial, Helvetica, sans-serif;
+	font-size: 35px;
+	font-weight: bold;
 }
 
 footer ul li {
-	display:inline;
+	display: inline;
 }
 
 header ul li {
-	display:inline;
+	display: inline;
+}
+
+ul {
+	list-style-type: square;
 }
